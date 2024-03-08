@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cryptocurrency Prices</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+  </head>
+  <body>
+    <header>
+      <h1>Cryptocurrency Prices</h1>
+    </header>
+    <main>
+      <h2>Current Prices</h2>
+      <div>
+        <span>Bitcoin: </span>
+        <span id="bitcoin-price">$30,000.00</span>
+      </div>
+      <div>
+        <span>Ethereum: </span>
+        <span id="ethereum-price">$2,000.00</span>
+      </div>
+      <form id="crypto-form">
+        <label for="crypto-name">Enter cryptocurrency name:</label>
+        <input type="text" id="crypto-name" name="crypto-name">
+        <button type="submit">Get Price</button>
+      </form>
+      <div id="crypto-price"></div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Cryptocurrency Prices</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
